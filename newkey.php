@@ -1,6 +1,5 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-//include('Crypt/RSA.php');
 use \phpseclib\Crypt\RSA;
 
 $rsa = new RSA();
